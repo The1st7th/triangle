@@ -1,0 +1,27 @@
+body {
+    background-color: #7FDBFF;
+  }
+
+  #result {
+    display: none;
+    margin: 35px;
+  }
+  
+  #negative_result {
+    display: none;
+    margin: 35px;
+  }
+  
+  #negative_answer {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline; 
+  }
+  
+  #answer {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  

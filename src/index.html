@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+
+      <form id="length">
+        <div class="form-group">
+          <label for="length1">1st lenght:</label>
+          <input id="length1" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="length2">2nd lenght:</label>
+          <input id="length2" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="length3">3rd lenght:</label>
+          <input id="length3" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg" id="button">What type of triangle it is?</button>
+
+      </form>
+
+      <div id="result">
+        <blockquote>
+          <h4>Based on the inputs that you've entered, your triangle type is: <span id="answer"></span>. Thank you!!!</h4>
+        </blockquote>
+      </div>
+
+      <div id="negative_result">
+        <blockquote>
+          <h4>Based on the inputs that you've entered, it is <span id="negative_answer">NOT TRIANGLE</span>. Thank you!!!</h4>
+        </blockquote>
+      </div>
+
+    </div>
+  </body>
+</html>
